@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+#Author: Dustin Dodson
+#Date modified: June 17, 2015
+
 import urllib
 import errno
 import os
