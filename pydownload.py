@@ -36,8 +36,3 @@ class Download:
     def setCreateNewDirectory(self, name):
         self.createNewFolder = True
         self.storeDirectory = (self.baseDirectory + name)
-
-download = Download()
-download.setBaseDirectory('/home/dustin/foo/')
-download.setCreateNewDirectory('bar/')
-download.downloadFile('http://i.imgur.com/KdngEOU.jpg', 'foo.jpg')
