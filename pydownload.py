@@ -12,7 +12,6 @@ class Download:
     def __init__(self):
         self.baseDirectory = ""
         self.storeDirectory = ""
-        self.createNewFolder = False
 
     def requireDirectory(self, path):
         try:
@@ -37,5 +36,4 @@ class Download:
         self.baseDirectory = dir
 
     def setCreateNewDirectory(self, name):
-        self.createNewFolder = True
         self.storeDirectory = (self.baseDirectory + name)
